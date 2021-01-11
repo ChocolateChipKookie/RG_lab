@@ -1,0 +1,24 @@
+Move the implementation of window to a method that returns shared pointers
+Remove move and copy constructors and assignments
+
+
+Event system
+
+Seperate 3d and 2d modeling schemes
+Construct 2d first
+
+Event system:
+    2 possible event systems:
+        Functor based:
+
+        Queue based:
+            class {
+                public:
+                    bool poll_events(event* event);
+                private:
+                    queue of events;
+            }
+
+
+
+
